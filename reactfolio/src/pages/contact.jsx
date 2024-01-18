@@ -40,36 +40,16 @@ const Contact = () => {
 
 					<div className="contact-container">
 						<div className="title contact-title">
-							Let's Get in Touch: Ways to Connect with Me
+							Feel free to reach out!
 						</div>
 
 						<div className="subtitle contact-subtitle">
-							Thank you for your interest in getting in touch with
-							me. I welcome your feedback, questions, and
-							suggestions. If you have a specific question or
-							comment, please feel free to email me directly at
+							Thank you for taking the time to visit my portfolio website. Thank you in advance for your interest in my work. If you have any questions or would like to discuss a potential opportunity, do not hesitate to contact me at
 							&nbsp;{" "}
 							<a href={`mailto:${INFO.main.email}`}>
 								{INFO.main.email}
 							</a>
-							. I make an effort to respond to all messages within
-							24 hours, although it may take me longer during busy
-							periods. Alternatively, you can use the contact form
-							on my website to get in touch. Simply fill out the
-							required fields and I'll get back to you as soon as
-							possible. Finally, if you prefer to connect on
-							social media, you can find me on{" "}
-							<a
-								href={INFO.socials.instagram}
-								target="_blank"
-								rel="noreferrer"
-							>
-								{INFO.socials.instagram}
-							</a>
-							. I post regular updates and engage with my
-							followers there, so don't hesitate to reach out.
-							Thanks again for your interest, and I look forward
-							to hearing from you!
+							. This email is great way to reach me and I check it daily. You can also call me at (512) 985-3228, or message me on Linkedin. I look forward to hearing from you!
 						</div>
 					</div>
 

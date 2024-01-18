@@ -8,6 +8,8 @@ import {
 	faInstagram,
 } from "@fortawesome/free-brands-svg-icons";
 
+import { faPhone } from '@fortawesome/free-solid-svg-icons';
+
 import INFO from "../../data/user";
 
 import "./styles/socials.css";
@@ -26,7 +28,7 @@ const Socials = () => {
 					<div className="social-text">Follow on Twitter</div>
 				</a>
 			</div> */}
-
+			
 			<div className="social">
 				<a href={INFO.socials.github} target="_blank" rel="noreferrer">
 					<div className="social-icon">
@@ -72,7 +74,20 @@ const Socials = () => {
 			</div> */}
 
 			<div className="email">
-				<div className="email-wrapper">
+
+			<div className="social">
+					<a href="tel:5129853228">
+						<div className="social-icon">
+							<FontAwesomeIcon
+								icon={faPhone}
+								className="social-icon"
+							/>
+							<i class="fa fa-phone" aria-hidden="true"></i>
+						</div>
+						<div className="social-text">(512)-985-3228</div>
+					</a>
+				</div>
+				<div className="social">
 					<a
 						href={`mailto:${INFO.main.email}`}
 						target="_blank"
@@ -85,6 +100,7 @@ const Socials = () => {
 						<div className="social-text">{INFO.main.email}</div>
 					</a>
 				</div>
+				
 			</div>
 		</div>
 	);

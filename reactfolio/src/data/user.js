@@ -18,14 +18,15 @@ const INFO = {
 	homepage: {
 		title: "Ivan Martinez:                                           Software Engineering, Fullstack Development, and Cyber Security", 
 		description:
-			"I am a student at Texas A&M University majoring in Computer Science and Minoring in Cybersecurity and Business. I am passionate about learning new technologies and applying them to real world problems. I am currently looking for a Software Engineering or Cyber Security positions.",
+			"I am a student at Texas A&M University majoring in Computer Science and Minoring in Cybersecurity and Business. I am passionate about learning new technologies and applying them to real world problems. I am currently looking for Software Engineering or Cyber Security positions.",
 			project_title: "Project Showcase",	
 	},
 
 	about: {
-		title: "I’m Tharindu N. I live in Sri Lanka, where I design the future.",
-		description:
-			"I've worked on a variety of projects over the years and I'm proud of the progress I've made. Many of these projects are open-source and available for others to explore and contribute to. If you're interested in any of the projects I've worked on, please feel free to check out the code and suggest any improvements or enhancements you might have in mind. Collaborating with others is a great way to learn and grow, and I'm always open to new ideas and feedback.",
+		title: "About Me",
+
+		
+
 		
 	},
 

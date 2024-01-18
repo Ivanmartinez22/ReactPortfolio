@@ -15,18 +15,18 @@ const Works = () => {
 					<div className="works-body">
 						<div className="work">
 							<img
-								src="./facebook.png"
-								alt="facebook"
+								src="./walmart-square.jpg"
+								alt="walmart"
 								className="work-image"
 							/>
-							<div className="work-title">Facebook</div>
+							<div className="work-title">Walmart</div>
 							<div className="work-subtitle">
-								Software Engineer
+								Retail Associate
 							</div>
-							<div className="work-duration">2019 - Present</div>
+							<div className="work-duration">2020 - Present</div>
 						</div>
 
-						<div className="work">
+						{/* <div className="work">
 							<img
 								src="./twitter.png"
 								alt="twitter"
@@ -37,7 +37,7 @@ const Works = () => {
 								Software Engineer
 							</div>
 							<div className="work-duration">2019 - Present</div>
-						</div>
+						</div> */}
 					</div>
 				}
 			/>
